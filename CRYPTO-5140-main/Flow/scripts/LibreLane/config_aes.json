@@ -1,0 +1,42 @@
+
+{
+  "DESIGN_NAME": "aes_core",
+
+  "VERILOG_FILES": [
+    "dir::../../../rtl/defines.v",
+    "dir::../../../rtl/src/aes_core.v",
+    "dir::../../../rtl/src/aes_128/*.v"
+  ],
+  
+  "PNR_SDC_FILE" : "dir::../../../constraints/sdc/aes_core.sdc",
+  "SIGNOFF_SDC_FILE" : "dir::../../../constraints/sdc/aes_core.sdc",
+
+  "CLOCK_PORT": "wb_clk_i",
+  "CLOCK_PERIOD": 20.0,
+
+  "FP_SIZING": "relative",
+  "FP_CORE_UTIL": 30,
+
+  "PL_TARGET_DENSITY_PCT": 45,
+
+  "MAX_FANOUT_CONSTRAINT": 4,
+
+  "SYNTH_EXCLUDED_CELL_FILE": "dir::../../../constraints/no_synth.cells",
+
+  "PNR_EXCLUDED_CELL_FILE": "dir::../../../constraints/drc_exclude.cells",
+
+  "RT_MAX_LAYER": "Metal4",
+
+  "VDD_NETS": [
+    "vdd"
+  ],
+
+  "GND_NETS": [
+    "vss"
+  ],
+
+  "PDN_MULTILAYER": false	
+  
+  
+  
+}

@@ -1,0 +1,47 @@
+134. Printing statistics.
+
+=== aes_core ===
+
+        +----------Local Count, excluding submodules.
+        | 
+    10572 wires
+    12218 wire bits
+       53 public wires
+     1518 public wire bits
+       16 ports
+      412 port bits
+    11810 cells
+      345   $_ANDNOT_
+      202   $_AND_
+      514   $_DFFE_PP_
+      451   $_DFF_P_
+     7853   $_MUX_
+       79   $_NAND_
+       56   $_NOR_
+      430   $_NOT_
+       85   $_ORNOT_
+      480   $_OR_
+      132   $_SDFFE_PN0P_
+        1   $_SDFFE_PP0P_
+       11   $_SDFF_PP0_
+        2   $_SDFF_PP1_
+      418   $_XNOR_
+      751   $_XOR_
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DFFE_PP_ is unknown!
+   Area for cell type $_DFF_P_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_SDFFE_PN0P_ is unknown!
+   Area for cell type $_SDFFE_PP0P_ is unknown!
+   Area for cell type $_SDFF_PP0_ is unknown!
+   Area for cell type $_SDFF_PP1_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+

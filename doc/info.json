@@ -1,0 +1,19 @@
+{
+  "name": "CRYPTO-1574",
+  "design_type": "CRYPTO core (AES)",
+  "technology": "GF 180nm",
+  "unique_id": "1574",
+  "license": "Apache-2.0",
+  "trl": 5,
+  "repository": "",
+  "pdk_version": "", 
+  "process": "GF180mcuC",
+  "dependencies": {},
+  "tools": {},
+  "release": {
+    "version": "v.1.0.0",
+    "gds": "release/v.1.0.0/gds",
+    "netlist": "release/v.1.0.0/netlist",
+    "doc": "release/v.1.0.0/doc"
+  }
+}

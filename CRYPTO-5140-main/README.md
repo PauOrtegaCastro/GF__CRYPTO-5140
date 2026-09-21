@@ -1,0 +1,3 @@
+# CRYPTO-5140-main
+
+Main folder, containing the complete set of files and directories generated throughout the digital design and validation flow. It serves as the root directory of the IP and includes the scripts and configuration files required to reproduce the full flow, design constraints, RTL sources, synthesis results and reports, Place and Route outputs, validation testbenches, and the results of the standard verification checks. All artifacts are organized according to the different stages of the flow, providing a self-contained and reproducible representation of the final IP.
