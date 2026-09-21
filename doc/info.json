@@ -5,7 +5,7 @@
   "unique_id": "1574",
   "license": "Apache-2.0",
   "trl": 5,
-  "repository": "",
+  "repository": "https://github.com/PauOrtegaCastro/GF__CRYPTO-5140/",
   "pdk_version": "", 
   "process": "GF180mcuC",
   "dependencies": {},
