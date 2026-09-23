@@ -1,0 +1,59 @@
+// DESCRIPTION: Verilator output: Waivers generated with --waiver-output
+
+`verilator_config
+
+// Below are suggested waivers. You have three options:
+//   1. Fix the reason for the linter warning in the Verilog sources
+//   2. Keep the waiver permanently if you are sure it is okay
+//   3. Keep the waiver temporarily to suppress the output
+
+// lint_off -rule WIDTHTRUNC -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Operator ASSIGNW expects 38 bits on the Assign RHS, but Assign RHS's CONST '64'h0' generates 64 bits.*"
+
+// lint_off -rule WIDTHTRUNC -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Operator ASSIGNW expects 38 bits on the Assign RHS, but Assign RHS's CONST '64'h0' generates 64 bits.*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'BITS'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Signal is not used: 'wbs_sel_i'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Bits of signal are not used: 'wbs_adr_i'[31:6,1:0]*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Signal is not used: 'la_data_in'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Signal is not used: 'la_oenb'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Signal is not used: 'io_in'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'CTRL_ADDR'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'ENC_KEY_1'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'ENC_KEY_2'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'ENC_KEY_3'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'ENC_KEY_4'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'ENC_TXT_1'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'ENC_TXT_2'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'ENC_TXT_3'*"
+
+// lint_off -rule UNUSEDPARAM -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Parameter is not used: 'ENC_TXT_4'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Signal is not used: 'rst'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Signal is not used: 'done'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Signal is not used: 'e_key_i'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_128/aes_cipher_top.v" -match "Signal is not driven, nor used: 's0_o'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_128/aes_cipher_top.v" -match "Signal is not driven, nor used: 's1_o'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_128/aes_cipher_top.v" -match "Signal is not driven, nor used: 's2_o'*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_128/aes_cipher_top.v" -match "Signal is not driven, nor used: 's3_o'*"
+
+// lint_off -rule CASEINCOMPLETE -file "*/home/ortega/projects/gf180/AES128_GFMPW0/verilog/rtl/src/aes_core.v" -match "Case values incompletely covered (example pattern 0x9)*"
+
